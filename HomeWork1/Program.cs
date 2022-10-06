@@ -69,6 +69,8 @@ if ( number <= 0 )
     sign = -1;
 }
 
+// current = current * sign; //to start from -1 for negative numbers
+
 while ( current * sign <= number * sign )
 {
     if ( current % 2 == 0 )
