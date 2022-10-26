@@ -46,3 +46,4 @@
 
 // double[] intersection = Intersection(k1, k2, b1, b2);
 // Console.WriteLine($"intersection is ({intersection[0]}; {intersection[1]})");
+

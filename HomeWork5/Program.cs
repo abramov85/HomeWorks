@@ -12,7 +12,7 @@ double[] CreateRandomDoubleArray(int size, int min, int max)
     double[] newArray = new double[size];
 
     for(int i = 0; i < size; i++)
-        newArray[i] = Convert.ToDouble(new Random().Next(min, max +1)) + Math.Round(new Random().NextDouble(), 2);
+        newArray[i] = Math.Round(Convert.ToDouble(new Random().Next(min, max +1)) + new Random().NextDouble(), 2);
     return newArray;
 }
 
